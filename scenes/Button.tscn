@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scenes/Button.gd" type="Script" id=1]
+
+[node name="Button" type="Button"]
+anchor_right = 1.0
+margin_left = 368.0
+margin_top = 417.0
+margin_right = 422.0
+margin_bottom = 437.0
+rect_scale = Vector2( 5.89593, 4.32173 )
+text = "restart"
+script = ExtResource( 1 )
+
+[connection signal="pressed" from="." to="." method="_on_Button_pressed"]
